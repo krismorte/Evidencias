@@ -16,6 +16,15 @@ import javax.swing.UIManager;
  */
 public class Main {
 
+    /*
+    
+    select c.chg_ref_num from wf w 
+inner join chg c on c.id=w.object_id
+where w.assignee = (select contact_uuid from ca_contact where userid='c007329')
+and w.status not in('COMP','CNCL','SKIP','CANCEL')
+    
+     */
+
     public static void main(String[] args) {
 
         try {

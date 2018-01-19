@@ -94,7 +94,7 @@ public class DocumentoEvidencia {
 
             Docx4jImage.add(wordMLPackage, mainDocument, list);
             //addImage(wordMLPackage, mainDocument, list);
-            Docx4jFooter.add(wordMLPackage, "EvidênciasBNB 1.0 by Krismorte C007329");
+            Docx4jFooter.add(wordMLPackage, "EvidênciasBNB 1.0 by krisnamourt - C007329");
             //addFooterToDocument(wordMLPackage, "EvidênciasBNB 1.0 by Krismorte C007329");
             Docx4J.save(wordMLPackage, new File(filePath));
         } catch (Exception ex) {
